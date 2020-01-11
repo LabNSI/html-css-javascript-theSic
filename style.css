@@ -18,18 +18,25 @@ body {
     alignement du texte: centré
 */
 header {
-
+	background-color: #000000;
+	/* /!\ FAUT PAS METRE DE MARGE SINON IL EST TROP PETIT !!! /!\ */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+	text-align:center;
 }
 
 /* Couleur du texte: Blanc */
 h1 {
-
+	color:#ffffff;
 }
 
 /* Style de la classe "choix"
 
 */
-_____ {
+.choix {
   float: left;
   width: 32.33%;
   margin: 0.5%;
@@ -53,7 +60,17 @@ _____ {
     couleur de fond: noir
 */
 .resultat {
-
+	float: left;
+	text-align:center;
+	width: 100%;
+	margin: 0.5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 150px;
+	border-radius: 20px;
+	background-color: #000000;
 }
 
 /* Clear floats after the columns */
@@ -90,19 +107,19 @@ _____ {
     couleur de fond : #bbb
 */
 #identity {
-
+	background-color: #bbb;
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #bbb
 */
 #classe {
-
+	background-color: #bbb;
 }
 
 /* Style de l'élément d'ID "identity"
     couleur de fond : #ccc
 */
 #speciality {
-
+	background-color: #ccc;
 }
